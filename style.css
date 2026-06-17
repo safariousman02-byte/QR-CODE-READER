@@ -25,9 +25,31 @@ video {
     background: #000;
 }
 
-#results {
+#result {
     background: #eee;
     border-radius: 5px;
-    
+    min-height: 40px;
+    padding: 10px;
+    margin: 15px 0;
+
+}
+
+button {
+    padding: 10px 25px;
+    margin: 5ps;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#startBtn {
+    background: #28a745;
+    color: wheat;
+}
+
+#stopBtn {
+    background: #dc3545;
+    color: white;
 }
 
